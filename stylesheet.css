@@ -1,28 +1,35 @@
-
-
 body {
   margin: 0;
 }
 
-.ul {
+header {
+  background-color: black;
+}
+
+.foot {
+  background-color: black;
+  color: white;
+}
+
+.ul1 {
   list-style-type: none;
   margin: 0px;
-  padding: 10px;
   overflow: hidden;
-  letter-spacing: 1px;
   font-size: 1rem;
-  position:static;
-  background-color: grey;
+  position: static;
 }
-.ulback{
-  background-color: grey;
-
+.ul2 {
+  list-style-type: none;
+  margin: 0px;
+  overflow: hidden;
+  font-size: 1rem;
+  position: static;
 }
 
 li {
   margin: 0;
   float: left;
-padding-left: 50px;
+  padding-left: 50px;
 }
 
 li :visited {
@@ -41,35 +48,28 @@ li :active {
   background-color: orange;
   font-weight: bold;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   padding: 15px 34px;
 }
 
 .start {
   text-align: center;
   padding-left: 350px;
-
 }
 
 .titre {
-  text-align: center ;
-  padding-left: 300px;
+  width: auto;
+  margin: auto;
   color: white;
   font-size: 20px;
-  padding-top: 100px;
-
-  
 }
 .body {
   background-color: rgb(2, 162, 255);
 }
 .for {
   background-color: white;
-  text-align: center;
-  font-size: 20px;
-  padding-left: 300px;
-  padding-bottom: 10px;
-  
+  width: auto;
+  margin: 0;
 }
 .perso {
   float: left;
@@ -77,18 +77,18 @@ li :active {
   margin-top: 50px;
 }
 
-table{
+table {
   color: white;
 }
-.td1{
+.td1 {
   padding-left: 100px;
 }
-.td3{
+.td3 {
   padding-left: 100px;
 }
-.td2{
+.td2 {
   padding-left: 25px;
 }
-.td4{
+.td4 {
   padding-left: 25px;
 }
